@@ -1,0 +1,22 @@
+﻿body 
+{
+    width: 670px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+
+#ram
+{
+    background-color: #FFE840;
+    margin-top: 30px;
+    border: 1px solid black;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#pager
+{
+    margin-top: 10px;   
+    text-decoration:
+}

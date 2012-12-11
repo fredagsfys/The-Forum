@@ -1,0 +1,45 @@
+﻿body 
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color:#E6FF99;
+}
+#OP1
+{
+    background-color: #ACBB2F;
+    width: 300px;
+    padding-left:10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    
+}
+#OP2
+{
+    font-family: Lucida Bright;
+    font-size: 14px;
+    margin-left: 10px;
+}
+#myGuessButton
+{
+    background-color: #C6F66F;
+    color: Orange;
+    font-style: italic;
+    font-family: Lucida Bright;
+    font-size: 14px;
+}
+#generateNewButton
+{
+    background-color: #C6F66F;
+    color: Orange;
+    font-style: italic;
+    font-family: Lucida Bright;
+    font-size: 14px;
+}
+h1
+{
+    font-size: 28px;
+    font-family: impact;
+    width: 669px;
+    height: 66px;
+}
