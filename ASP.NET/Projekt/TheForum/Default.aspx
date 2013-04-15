@@ -13,7 +13,7 @@
     </blockquote>
     <blockquote>
         <p><b>Welcome to "The Forum" Mats Loock!</b></p>
-        <small>Before anything please register <a href="/Account/Register.aspx" title="Register">here</a>.</small>
+        <small>Before anything please register <a runat="server" href="~/Account/Register.aspx" title="Register">here</a>.</small>
     </blockquote>
 </asp:Content>
 
