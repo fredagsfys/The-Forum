@@ -19,7 +19,7 @@
                     Display="Dynamic" CssClass="text-error errorInh2" 
                     ValidationGroup="CreateThread" SetFocusOnError="True">*
                 </asp:RequiredFieldValidator>
-                <asp:TextBox ID="ThreadNameTextBox" runat="server" Placeholder="Thread title"></asp:TextBox>
+                <asp:TextBox ID="ThreadNameTextBox" runat="server" Placeholder="Thread title" MaxLength="50"></asp:TextBox>
 	        </h2>
 	    </div>
         <div class="span10">
@@ -30,7 +30,8 @@
                     ValidationGroup="CreateThread" SetFocusOnError="True">*
                 </asp:RequiredFieldValidator>
 
-                <asp:TextBox ID="ThreadContentTextBox" runat="server" CssClass="span11" Rows="8" TextMode="MultiLine" Placeholder="Thread content..."></asp:TextBox>
+                <asp:TextBox ID="ThreadContentTextBox" runat="server" CssClass="span11" 
+                    Rows="8" TextMode="MultiLine" Placeholder="Thread content..." MaxLength="1000"></asp:TextBox>
             </p>    
         </div>
 	    <div class="span11">

@@ -39,7 +39,7 @@
                     Display="Dynamic" CssClass="text-error errorInh2" 
                     ValidationGroup="Comment" SetFocusOnError="True">*
                 </asp:RequiredFieldValidator>
-                <asp:TextBox ID="CommentContentTextBox" runat="server" Text='<%# Bind("CommentContent") %>' TextMode="MultiLine" CssClass="span11" Rows="8" />
+                <asp:TextBox ID="CommentContentTextBox" runat="server" Text='<%# Bind("CommentContent") %>' TextMode="MultiLine" CssClass="span11" Rows="8" MaxLength="500" />
             </div>
 	        <div class="span11">
 	                <hr>
